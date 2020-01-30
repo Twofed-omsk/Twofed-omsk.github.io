@@ -1,0 +1,92 @@
+.offer
+  background: url('../img/offer/offer-bg.png') no-repeat
+  background-position: center right
+  background-size: contain
+  position: relative
+  &::before
+    content: ''
+    width: 50%
+    height: 100%
+    position: absolute
+    top: 0px
+    left: 0px
+    background-color: #fff
+  &-text
+    display: flex
+    justify-content: space-between
+    margin-top: 30px
+  &-block
+    width: 50%
+    padding-right: 90px
+    position: relative
+  &-mng
+    width: 50%
+    font-size: 15px
+    line-height: 24px
+    margin-right: 70px
+    +reg 
+  &-pred
+    width: 50%
+    &__text
+      font-size: 15px
+      line-height: 24px
+      +reg
+    &__phone
+      font-size: 15px
+      line-height: 24px
+      +bold     
+  &__title
+    max-width: 360px
+    line-height: 35px
+    margin-bottom: 24px
+  &__subtitle
+    display: block
+    max-width: 250px  
+    margin-bottom: 30px
+  &__input
+    margin-bottom: 30px 
+    width: 240px 
+    &:first-child
+      margin-right: 10px
+  &__button
+    width: 100%
+    min-height: 70px
+
+@media ( max-width: 1200px)
+  .offer
+    background-size: cover
+    &__input
+      width: 100%
+      margin-bottom: 10px
+    &__button
+      font-size: 13px
+    &-text
+      display: flex 
+      flex-direction: column
+    &-mng
+      width: 100%
+      margin-bottom: 20px 
+    &-pred
+      width: 100%    
+@media ( max-width: 768px)
+  .offer
+    background: #ffffff
+    &-block
+      width: 100%
+      padding-right: 0
+    &__button
+      font-size: 14px 
+    &-text
+      display: flex
+      flex-direction: column 
+    &-mng
+      width: 100%
+      margin-bottom: 20px 
+    &-pred
+      width: 100%    
+     
+
+
+
+
+
