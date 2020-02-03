@@ -23,11 +23,13 @@ img
   &:hover
     background-color: lighten($main-color,10% )
     cursor: pointer
-.secton
+.section
   padding: 90px 0
   &-title
     font-size: 24px
+    max-width: 500px
     +bold
+    text-align: center
   &-subtitle
     font-size: 16px
 .input
@@ -37,4 +39,8 @@ img
   border-radius: 10px 
   &:focus
     outline: none
-    border: 1px solid $main-color    
+    border: 1px solid $main-color  
+.arrows
+  &__left, &__right
+    &:hover
+      cursor: pointer  
