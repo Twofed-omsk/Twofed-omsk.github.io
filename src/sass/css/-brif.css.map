@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,WAAO,CAAC;EACN,OAAO,EAAE,IAAI;CAAG;;AACjB,AAAD,gBAAY,CAAC;EACX,UAAU,EAAE,GAAG;CAAG;;AACnB,AAAD,WAAO,CAAC;EACN,UAAU,EAAE,GAAG;CAAG",
+    "sources": [
+        "../blocks/-brif.sass"
+    ],
+    "names": [],
+    "file": "-brif.css"
+}
