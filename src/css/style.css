@@ -45,11 +45,6 @@ img {
   padding: 18px 30px;
 }
 
-.button:hover {
-  background-color: #ffdb33;
-  cursor: pointer;
-}
-
 .section {
   padding: 90px 0;
 }
@@ -78,10 +73,6 @@ img {
   border: 1px solid #ffd200;
 }
 
-.arrows__left:hover, .arrows__right:hover {
-  cursor: pointer;
-}
-
 @media (max-width: 1200px) {
   .container {
     width: 760px;
@@ -96,6 +87,16 @@ img {
   .section {
     right: 60px;
     padding: 60px 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .button:hover {
+    background-color: #ffdb33;
+    cursor: pointer;
+  }
+  .arrows__left:hover, .arrows__right:hover {
+    cursor: pointer;
   }
 }
 

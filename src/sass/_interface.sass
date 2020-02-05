@@ -15,9 +15,9 @@ img
   background-color: $main-color
   border: none
   padding: 18px 30px
-  &:hover
-    background-color: lighten($main-color,10% )
-    cursor: pointer
+  // &:hover
+  //   background-color: lighten($main-color,10% )
+  //   cursor: pointer
 .section
   padding: 90px 0
   &-title
@@ -35,17 +35,25 @@ img
   &:focus
     outline: none
     border: 1px solid $main-color  
-.arrows
-  &__left, &__right
-    &:hover
-      cursor: pointer  
 @media ( max-width: 1200px)
   .container
     width: 760px
 @media ( max-width: 768px)
+  
   .container
     max-width: 780px
     width: 90%
   .section
     right: 60px 
     padding: 60px 0px 
+@media ( min-width: 1200px)
+  .button
+    &:hover
+      background-color: lighten($main-color,10% )
+      cursor: pointer
+  .arrows
+    &__left, &__right
+      &:hover
+        cursor: pointer  
+    
+
