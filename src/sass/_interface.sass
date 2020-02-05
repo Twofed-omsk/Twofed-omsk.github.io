@@ -7,16 +7,8 @@ img
 .container
   width: 1170px
   margin: auto
-@media ( max-width: 1200px)
-  .container
-    width: 760px
-@media ( max-width: 768px)
-  .container
-    max-width: 780px
-    width: 90%
-  .section
-    padding-top: 60px
-    right: 60px  
+.bold
+  +bold  
    
 .button
   border-radius: 10px
@@ -47,3 +39,13 @@ img
   &__left, &__right
     &:hover
       cursor: pointer  
+@media ( max-width: 1200px)
+  .container
+    width: 760px
+@media ( max-width: 768px)
+  .container
+    max-width: 780px
+    width: 90%
+  .section
+    right: 60px 
+    padding: 60px 0px 

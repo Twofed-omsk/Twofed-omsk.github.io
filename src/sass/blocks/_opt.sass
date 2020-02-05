@@ -1,0 +1,27 @@
+.opt
+  background-color: $background-color
+  &-block
+    display: flex
+    padding: 0px 130px
+  &-text
+    display: flex
+    justify-content: center
+    align-items: center
+
+  &__title
+    display: block
+    text-align: center
+    font-size: 32px
+    line-height: 50px
+@media ( max-width: 1200px)
+  .opt
+    &__title
+      font-size: 26px
+      line-height: 35px     
+@media ( max-width: 768px)
+  .opt
+    &__title
+      font-size: 18px
+      line-height: 25px
+
+
