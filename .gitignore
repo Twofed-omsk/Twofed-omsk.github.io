@@ -1,1 +1,2 @@
-.src/sass
+$ cat .gitignore
+src/sass
