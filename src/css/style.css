@@ -73,6 +73,11 @@ img {
   border: 1px solid #ffd200;
 }
 
+b {
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 760px;
@@ -882,6 +887,9 @@ img {
   .opt__title {
     font-size: 18px;
     line-height: 25px;
+  }
+  .opt-block {
+    padding: 0 30px;
   }
 }
 
